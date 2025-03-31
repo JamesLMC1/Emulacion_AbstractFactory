@@ -15,7 +15,7 @@ public class App {
 		FabricaAbstracta fabricaREST = FabricaProductor.getFactory("REST");
 		IConexionREST cxRS1 = fabricaREST.getREST("COMPRAS");
 
-		cxRS1.leerURL("la base de datos de la Empresa");
+		System.out.println("la base de datos de la Empresa");
 	}
 
 }
